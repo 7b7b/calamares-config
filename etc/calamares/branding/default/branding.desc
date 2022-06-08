@@ -223,5 +223,5 @@ slideshowAPI: 2
 #           Takes string as input. Important bits are the host and port,
 #           the scheme is not used.
 uploadServer :
-    type :    "fiche"
-    url :     "http://termbin.com:9999"
+    type :    "none"
+    url :     ""
