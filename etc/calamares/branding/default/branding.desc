@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         ALCI
-    shortProductName:    ALCI
-    version:             2021.01.1
-    shortVersion:        2020.01.1
-    versionedName:       ALCI
-    shortVersionedName:  ALCI
-    bootloaderEntryName: Generic
+    productName:         AhlnOS
+    shortProductName:    AhlnOS
+    version:             2023.01.1
+    shortVersion:        2023.01.1
+    versionedName:       AhlnOS
+    shortVersionedName:  AhlnOS
+    bootloaderEntryName: AhlnOS
 
 # These images are loaded from the branding module directory.
 #
