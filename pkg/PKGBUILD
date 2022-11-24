@@ -4,7 +4,11 @@ pkgrel=1
 pkgdesc="Calamares config"
 arch=('any')
 license=('GPL3')
+source=("calamares.desktop")
+sha256sums('SKIP')
 package() {
   cp -r ../../etc "${pkgdir}"
   cp -r ../../usr "${pkgdir}"
+  install -Dm644 "${srcdir}/calamares.desktop" "$pkgdir/etc/xdg/autostart/calamares.desktop"
+	install -Dm644 "${srcdir}/calamares.desktop" "$pkgdir/usr/share/applications/calamares.desktop"
 }
