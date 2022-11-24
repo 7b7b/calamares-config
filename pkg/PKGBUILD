@@ -1,0 +1,10 @@
+pkgname=calamares-config
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="Calamares config"
+arch=('any')
+license=('GPL3')
+package() {
+  cp -r ../../etc "${pkgdir}"
+  cp -r ../../usr "${pkgdir}"
+}
