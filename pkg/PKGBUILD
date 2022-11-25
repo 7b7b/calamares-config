@@ -5,7 +5,7 @@ pkgdesc="Calamares config"
 arch=('any')
 license=('GPL3')
 source=("calamares.desktop")
-sha256sums('SKIP')
+sha256sums=('SKIP')
 package() {
   cp -r ../../etc "${pkgdir}"
   cp -r ../../usr "${pkgdir}"
