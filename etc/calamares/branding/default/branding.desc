@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         AhlnOS
-    shortProductName:    AhlnOS
+    productName:         archlinux
+    shortProductName:    archlinux
     version:             2023.01.1
     shortVersion:        2023.01.1
-    versionedName:       AhlnOS
-    shortVersionedName:  AhlnOS
-    bootloaderEntryName: AhlnOS
+    versionedName:       archlinux
+    shortVersionedName:  archlinux
+    bootloaderEntryName: archlinux
 
 # These images are loaded from the branding module directory.
 #
